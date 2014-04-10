@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exchange>  
+  <!-- Path relative to the home directory, which is specified 
+  	   using the REX_HOME environtment variable -->
+  <log configFile="config/log.properties"/>
+  <fix configFile="config/fix.ini"/>  
+
+  <securities>
+    <security symbol="IBM"/>
+    <security symbol="MSFT"/>
+    <security symbol="AAPL"/>
+    <security symbol="C"/>
+    <security symbol="GOOG"/>
+    <security symbol="T"/>
+    <security symbol="JPM"/>
+    <security symbol="GS"/>
+  </securities>    
+  
+  <self>
+    <targetCompId name="REX"/>
+  </self>
+</exchange>
